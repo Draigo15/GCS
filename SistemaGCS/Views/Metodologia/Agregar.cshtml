@@ -1,0 +1,40 @@
+﻿@model SistemaGCS.Models.Metodologia
+@{ ViewBag.Title = "Agregar"; }
+
+
+
+<nav class="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="~/Metodologia/Index">Metodologia</a></li>
+        <li class="breadcrumb-item active">@(Model.Id_metodologia > 0 ? Model.Nombre +"," + Model.Nombre : "Nuevo Registro")</li>
+    </ol>
+</nav>
+
+@using (Html.BeginForm("Guardar", "Metodologia", FormMethod.Post, new { id = "frm-categoria" }))
+{
+@Html.HiddenFor(x => x.Id_metodologia)
+                <div class="card">
+                    <div class="card-header">Informacion del Usuario</div>
+                    <div class="card-body">
+
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Nombre)
+                            @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Nombre, null, new { @class = "label label-danger" })
+                        </div>
+                                                
+
+                    </div>
+
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-outline-primary">GUARDAR</button>
+                        <a href="~/Metodologia" class="btn btn-outline-danger">CANCELAR</a>
+                    </div>
+                    <br /><br /><br />
+                </div>
+}
+
+
+

@@ -1,0 +1,901 @@
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+C:\Users\yncat\Documents\GitHub\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csprojAssemblyReference.cache
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+D:\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csprojAssemblyReference.cache
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+D:\Gestion Proyectos\Gestion Diciembre 2\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csprojAssemblyReference.cache
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+D:\Gestion Proyectos\Gestion Nueva BD\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csprojAssemblyReference.cache
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+D:\Gestion Proyectos\Gestion ULTIMO\Sistema-Gestion-de-la-Configuracion-Software\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+C:\Users\51933\source\repos\proyecto completo GCS\sistema GCS\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+C:\Users\Pedro\Documents\das\gsw pro\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Pedro\source\repos\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+D:\UPT\9° CICLO part2\GESTION DE CONFIGURACION\CODIGO PROY\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CopyComplete
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+C:\Users\HP\Desktop\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll.config
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\SistemaGCS.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\SistemaGCS.pdb
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\csc.exe.config
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\csc.rsp
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\csi.exe.config
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\csi.rsp
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.AppContext.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Console.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Http.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.ValueTuple.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\vbc.exe.config
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\vbc.rsp
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\EntityFramework.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Razor.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\EntityFramework.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\EntityFramework.SqlServer.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Razor.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Webpages.Razor.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Helpers.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\System.Web.Mvc.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\es\System.Web.Razor.resources.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.resources.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.AssemblyReference.cache
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.CoreCompileInputs.cache
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.csproj.Up2Date
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.dll
+C:\Users\carus\OneDrive\Escritorio\Gestion de la configuracion\SistemaGCS\SistemaGCS\obj\Debug\SistemaGCS.pdb

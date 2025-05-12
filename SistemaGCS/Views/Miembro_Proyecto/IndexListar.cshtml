@@ -1,0 +1,69 @@
+﻿@model List<SistemaGCS.Models.Miembro_Proyecto>
+@{
+    ViewBag.Title = "Index";
+
+    List<SistemaGCS.Models.Miembro_Proyecto> TipoU = ViewBag.listar;
+
+
+
+    SistemaGCS.Models.Proyecto proyecto = ViewBag.proyecto;
+
+    
+
+
+
+
+}
+
+<!-- Page header -->
+<dv class="full-box page-header">
+    <h3 class="text-left">
+         
+        <a href="~/Miembro_Proyecto/AgregarUnico/@proyecto.Id_proyecto" class="btn btn-outline-success">Registrar Miembro</a>
+        <a href="##" class="btn btn-outline-primary" onClick="history.go(-1); return false;">Volver</a>
+
+    </h3>
+
+</dv>
+<!--CONTENT-->
+<!-- Content here-->
+<div class="container-fluid">
+    @using (Html.BeginForm("IndexListar", "Miembro_Proyecto", FormMethod.Post))
+    {
+    }
+    <div class="table-responsive">
+        <table id="datatable" class="display" style="width:100%">
+            <thead>
+                <tr class="text-center">
+
+                    <th>#</th>
+
+                    <th>USUARIO</th>
+                    <th>ROL</th>
+                    <th>PROYECTO</th>
+                    <th>OPCIONES</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in TipoU)
+                {
+                    <tr class="text-center">
+                        <td>@(item.Id_miembro)</td>
+                        <td>@(item.Usuario.Nombre), @(item.Usuario.Apellido)</td>
+                        <td>@(item.Rol.Nombre)</td>
+                        <td>@(item.Proyecto.Nombre)</td>
+                        <td>
+                            @*<a onclick="return confirm('Esta Seguro que desea Actualizar Datos del registro?')" href="~/Miembro_Proyecto/Agregar/@item.Id_miembro" class="btn btn-primary">Editar</a>*@
+                            @*<a onclick="return confirm('Esta Seguro que desea Eliminar el registro?')" href="~/Miembro_Proyecto" class="btn btn-danger">Cancelar</a>*@
+                            <a href="~/Miembro_Elemento/IndexListar/@item.Id_miembro" class="btn btn-outline-info">Ver Elemento</a>
+                        </td>
+                    </tr>
+                    
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>

@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Gestión de la Configuración de Software">
+    <meta name="keywords" content="Sistema de Gestión de la Configuración de Software">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+    <title>Dashboard /GCS</title>
+    <link href="~/Source/css/app.css" rel="stylesheet" />
+    <link href="~/Source/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="~/Source/css/sweetalert2.min.css" rel="stylesheet" />
+    <link href="~/Source/css/sweetalert.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-content js-simplebar bg-dark">
+                <a class="sidebar-brand" href="#">
+
+                    <center>
+                        <img src="~/Source/img/avatars/software-1.png" style="width:40%; height:auto" />
+                    </center>
+
+                </a>
+
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">MENU</li>
+
+                    <li class="sidebar-item active">
+                        <a class="sidebar-link" href="~/Home/Index">
+                            <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <br />
+                    <li class="sidebar-header">MANTENIMIENTO</li>
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="~/Usuario/Index">
+                            <i class="align-middle" data-feather="user"></i> <span class="align-middle">Gestión de Usuarios</span>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="~/Metodologia/Index">
+                            <i class="align-middle" data-feather="layers"></i> <span class="align-middle">Gestión de Metodologías</span>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="~/Elemento_Configuracion/Index">
+                            <i class="align-middle" data-feather="archive"></i> <span class="align-middle">Gestión de Módulos de Requerimiento</span>
+                        </a>
+                    </li>
+
+                    <br />
+                    <li class="sidebar-header">PROYECTO</li>
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="~/Proyecto/Index">
+                            <i class="align-middle" data-feather="folder"></i> <span class="align-middle">Gestión de Proyectos</span>
+                        </a>
+                    </li>
+
+                    <br />
+                    <li class="sidebar-header">CONTROL</li>
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="#">
+                            <i class="align-middle" data-feather="shield"></i> <span class="align-middle">Seguridad</span>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="#">
+                            <i class="align-middle" data-feather="refresh-cw"></i> <span class="align-middle">Control de Cambios</span>
+                        </a>
+                    </li>
+
+                    <br />
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="/Login/LogOut">
+                            <i class="align-middle" data-feather="log-out"></i> <span class="align-middle">Cerrar Sesión</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-light navbar-bg">
+                <a class="sidebar-toggle d-flex">
+                    <i class="hamburger align-self-center"></i>
+                </a>
+
+                <form class="d-none d-sm-inline-block">
+                    <div class="input-group input-group-navbar">
+                        <h3>Gestion de la Configuracion de Softwaree </h3>
+                    </div>
+                </form>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav navbar-align">
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <div class="position-relative">
+                                    <i class="align-middle" data-feather="bell"></i>
+                                    <span class="indicator">4</span>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
+                                <div class="dropdown-menu-header">4 Notificaciones Nuevas</div>
+                                <div class="dropdown-menu-footer">
+                                    <a href="#" class="text-muted">Mostrar todas las Notificaciones</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                @{
+                                    var rol = Session["RolNombre"] != null ? Session["RolNombre"].ToString().ToLower() : "default";
+                                    var avatar = "default.png";
+                                    if (rol.Contains("admin")) { avatar = "admin.png"; }
+                                    else if (rol.Contains("desarrollador")) { avatar = "dev.png"; }
+                                }
+                                <img src="~/Source/img/avatars/@avatar" class="avatar img-fluid rounded-circle me-1" alt="Usuario" width="36" height="36" />
+                                <span class="text-dark">@Session["NombreCompleto"]</span><br />
+                                <small class="text-muted">@Session["CorreoUsuario"]</small><br />
+                                <small class="text-muted">@Session["RolNombre"]</small>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+                                <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="settings"></i> Settings</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/Login/LogOut">Cerrar Sesión</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="content">
+                <div class="container-fluid p-0">
+                    <div class="row mb-2 mb-xl-3">
+                        <div class="col-auto d-none d-sm-block">
+                        </div>
+                        @RenderBody()
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row text-muted">
+                        <div class="col-6 text-start">
+                            <p class="mb-0">
+                                <a href="#" class="text-muted"><strong>@DateTime.Now.Year Sistema de Gestión de la Configuración de Software</strong></a> &copy;
+                            </p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="#">Version 1.0</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="~/Source/js/app.js"></script>
+    <script src="~/Source/js/jquery-3.5.1.js"></script>
+    <script src="~/Source/js/jquery.dataTables.min.js"></script>
+    <script src="~/Source/js/jquery.validate.js"></script>
+    <script src="~/Source/js/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Source/js/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#datatable").DataTable({
+                "aLengthMenu": [[5, 10, 25, 50, 100, 200, -1], [5, 10, 25, 50, 100, 200, "Todos"]],
+                "bDestroy": true,
+                "language": {
+                    "sProcessing": "Procesando...",
+                    "sLengthMenu": "Mostrar _MENU_ registros",
+                    "sZeroRecords": "No se encontraron resultados",
+                    "sEmptyTable": "Ningún dato disponible en esta tabla",
+                    "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                    "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                    "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                    "sSearch": "Buscar:",
+                    "oPaginate": {
+                        "sFirst": "Primero",
+                        "sLast": "Último",
+                        "sNext": "Siguiente",
+                        "sPrevious": "Anterior"
+                    },
+                    "oAria": {
+                        "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                    }
+                }
+            });
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

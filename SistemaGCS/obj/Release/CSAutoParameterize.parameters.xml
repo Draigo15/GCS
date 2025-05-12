@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ModelGCS3-Web.config Connection String" description="ModelGCS3 Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="data source=SQL5105.site4now.net;initial catalog=db_a8ef60_dbsystemgcs;user id=db_a8ef60_dbsystemgcs_admin;password=jhoncito1234;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Pedro\\source\\repos\\SistemaGCS\\SistemaGCS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ModelGCS3']/@connectionString" />
+  </parameter>
+</parameters>

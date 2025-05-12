@@ -1,0 +1,47 @@
+﻿@model List<SistemaGCS.Models.Usuario>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Usuarios</h2>
+<h2 class="pagegeader">
+    <a href="~/Usuario/Agregar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Usuario", FormMethod.Post))
+{
+   
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Tipo de Usuario</th>
+            <th>Apellidos y Nombres </th>
+            <th>Email</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+        <tr>
+            <td>@(m.Id_usuario)</td>
+            <td>@(m.Tipo_Usuario.Nombre)</td>
+            <td>@(m.Apellido), @(m.Nombre)</td>
+            <td>@(m.Correo)</td>
+            <td>@(m.Estado)</td>
+            <td>
+
+                <a href="~/Usuario/Agregar/@m.Id_usuario" class="btn btn-outline-success">Editar</a>
+                
+            </td>
+        </tr>
+        }
+    </tbody>
+    <p></p>
+</table>

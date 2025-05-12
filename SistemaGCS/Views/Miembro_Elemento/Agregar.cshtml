@@ -1,0 +1,89 @@
+﻿@model SistemaGCS.Models.Miembro_Elemento
+@{
+    ViewBag.Title = "Agregar";
+    List<SistemaGCS.Models.Elemento_Configuracion> tipoec= ViewBag.TipoEC;
+    List<SistemaGCS.Models.Miembro_Proyecto> tipom = ViewBag.Tipomiembros;
+
+
+
+    
+}
+
+
+<nav class="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="~/Miembro_Elemento/Index">Miembro Elemento</a></li>
+        <li class="breadcrumb-item active">@(Model.Id_miembroelemento > 0 ? Model.Id_miembro +"," + Model.Elemento_Configuracion : "Nuevo Registro")</li>
+    </ol>
+</nav>
+
+@using (Html.BeginForm("Guardar", "Miembro_Elemento", FormMethod.Post, new { id = "frm-categoria" }))
+{
+    @Html.HiddenFor(x => x.Id_miembroelemento)
+    <div class="card">
+        <div class="card-header">Informacion de Miembro Elemento</div>
+        <div class="card-body">
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Id_miembro)
+                <select name="Id_miembro" class="form-control">
+                    <option @(Model.Id_miembro.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                    @foreach (var t in tipom)
+                    {
+                        <option @(Model.Id_miembro.Equals(t.Id_miembro) ? "selected" : "")
+                                value="@t.Id_miembro">
+                            @t.Id_usuario
+                        </option>
+                    }
+                </select>
+                @Html.ValidationMessageFor(x => x.Id_miembro, null, new { @class = "label label-danger" })
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Id_elementoconfiguracion)
+                <select name="Id_elementoconfiguracion" class="form-control">
+                    <option @(Model.Id_elementoconfiguracion.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                    @foreach (var t in tipoec)
+                    {
+                        <option @(Model.Id_elementoconfiguracion.Equals(t.Id_elementoconfiguracion) ? "selected" : "")
+                                value="@t.Id_elementoconfiguracion">
+                            @t.Nomenclatura
+                        </option>
+                    }
+                </select>
+                @Html.ValidationMessageFor(x => x.Id_elementoconfiguracion, null, new { @class = "label label-danger" })
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Url)
+                @Html.TextBoxFor(x => x.Url, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Url, null, new { @class = "label label-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.FechaInicio)
+                @Html.TextBoxFor(x => x.FechaInicio, new { @type = "date", @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.FechaInicio, null, new { @class = "label label-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.Fechafin)
+                @Html.TextBoxFor(x => x.Fechafin, new { @type = "date", @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Fechafin, null, new { @class = "label label-danger" })
+            </div>
+
+
+
+
+        </div>
+
+        <div class="text-right">
+            <button type="submit" class="btn btn-outline-primary">Guardar</button>
+            <a href="~/Miembro_Elemento" class="btn btn-outline-danger">Cancelar</a>
+        </div>
+        <br /><br /><br />
+
+
+    </div>
+}

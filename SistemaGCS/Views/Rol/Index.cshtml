@@ -1,0 +1,45 @@
+﻿@model List<SistemaGCS.Models.Rol>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Roles</h2>
+<h2 class="pagegeader">
+    <a href="~/Rol/Agregar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Rol", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+        <tr>
+            <td>@(m. Id_rol)</td>
+            <td>@(m.Nombre)</td>
+            
+            <td>
+
+                <a href="~/Rol/Agregar/@m.Id_rol" class="btn btn-outline-success">Editar</a>
+                @*<a onclick="return confirm('Esta Seguro que desea eliminar el registro?')" href="~/Rol/Eliminar/@m.Id_rol" class="btn btn-danger">Eliminar</a>*@
+            </td>
+        </tr>
+        }
+    </tbody>
+    <p></p>
+</table>
+
+

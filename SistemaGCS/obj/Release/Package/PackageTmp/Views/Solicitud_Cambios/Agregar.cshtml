@@ -1,0 +1,81 @@
+﻿@model SistemaGCS.Models.Solicitud_Cambios
+@{
+    ViewBag.Title = "Agregar";
+
+    List<SistemaGCS.Models.Solicitud> tiposol = ViewBag.TipoSolicitud;   
+
+}
+
+
+
+<nav class="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="~/Solicitud_Cambios/Index">Solicitud de Cambios</a></li>
+        <li class="breadcrumb-item active">@(Model.Id_solicitud_cambios > 0 ? Model.Objetivo: "Nuevo Registro")</li>
+    </ol>
+</nav>
+
+@using (Html.BeginForm("Guardar", "Solicitud_Cambios", FormMethod.Post, new { id = "frm-categoria" }))
+{
+    @Html.HiddenFor(x => x.Id_solicitud_cambios)
+    <div class="card">
+        <div class="card-header">Informacion del Proyecto</div>
+        <div class="card-body">
+
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Fecha)
+                @Html.TextBoxFor(x => x.Fecha, new { @type = "date", @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Fecha, null, new { @class = "label label-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.Objetivo)
+                @Html.TextBoxFor(x => x.Objetivo, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Objetivo, null, new { @class = "label label-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.Descripcion)
+                @Html.TextBoxFor(x => x.Descripcion, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Descripcion, null, new { @class = "label label-danger" })
+            </div>
+           
+            <div class="form-group">
+                @Html.LabelFor(x => x.Respuesta)
+                <select name="Respuesta" class="form-control">
+                    <option @(Model.Respuesta == "Positiva" ? "Selected" : "") value="Positiva">Positiva</option>
+                    <option @(Model.Respuesta == "Negativa" ? "Selected" : "") value="Negativa">Negativa</option>
+                </select>
+                @Html.ValidationMessageFor(x => x.Respuesta, null, new { @class = "label label-danger" })
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Id_solicitud)
+                <select name="Id_solicitud" class="form-control">
+                    <option @(Model.Id_solicitud.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                    @foreach (var t in tiposol)
+                    {
+                        <option @(Model.Id_solicitud.Equals(t.Id_solicitud) ? "selected" : "")
+                                value="@t.Id_solicitud">
+                            @t.Requerimiento
+                        </option>
+                    }
+                </select>
+                @Html.ValidationMessageFor(x => x.Id_solicitud, null, new { @class = "label label-danger" })
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="text-right">
+            <button type="submit" class="btn btn-outline-primary">Guardar</button>
+            <a href="~/Solicitud_Cambios" class="btn btn-outline-danger">Cancelar</a>
+        </div>
+        <br /><br /><br />
+
+
+    </div>
+}

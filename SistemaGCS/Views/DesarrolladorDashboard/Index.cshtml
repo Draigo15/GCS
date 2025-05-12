@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Panel del Desarrollador";
+}
+
+<div class="container-fluid">
+    <h2 class="mt-4">Bienvenido, @Session["NombreCompleto"]</h2>
+
+    <div class="row mt-4">
+        <!-- Proyectos asignados -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-info text-white">Mis Proyectos</div>
+                <div class="card-body">
+                    @if (ViewBag.MisProyectos != null && ViewBag.MisProyectos.Count > 0)
+                    {
+                        <ul>
+                            @foreach (var proyecto in ViewBag.MisProyectos)
+                            {
+                                <li>@proyecto.Nombre - Estado: @proyecto.Estado</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>No tienes proyectos asignados.</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- ECs asignados -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-secondary text-white">Elementos de Configuración Asignados</div>
+                <div class="card-body">
+                    @if (ViewBag.MisElementos != null && ViewBag.MisElementos.Count > 0)
+                    {
+                        <ul>
+                            @foreach (var ec in ViewBag.MisElementos)
+                            {
+                                <li>@ec.Nombre - Fase: @ec.Fase.Nombre</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>No tienes elementos de configuración asignados.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

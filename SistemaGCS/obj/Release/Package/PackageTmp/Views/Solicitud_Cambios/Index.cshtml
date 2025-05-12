@@ -1,0 +1,68 @@
+﻿@model List<SistemaGCS.Models.Solicitud_Cambios>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Solicitud</h2>
+<h2 class="pagegeader">
+    <a href="~/Solicitud_Cambios/Agregar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Solicitud_Cambios", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+
+            <th>Fecha </th>
+            <th>Objetivo</th>
+            <th>Descripcion</th>
+            <th>Respuesta</th>
+            <th>Solicitud</th>
+
+
+
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@(m.Id_solicitud_cambios)</td>
+                <td>@(m.Fecha)</td>
+                <td>@(m.Objetivo)</td>
+                <td>@(m.Descripcion)</td>
+
+                <td>
+                @{ if (m.Respuesta == "Positiva")
+                {
+	                <span style="color:green">@(m.Respuesta) </span> 
+                }
+                else
+                {
+                     <span style="color:red">@(m.Respuesta) </span>
+                }
+                }
+                </td>
+                                                                                         
+
+
+                @*<td>@(m.Respuesta)</td>*@
+                <td>@(m.Solicitud.Requerimiento)</td>
+                <td>
+
+                    <a href="~/Solicitud_Cambios/Agregar/@m.Id_solicitud_cambios" class="btn btn-outline-success">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <p></p>
+</table>
+

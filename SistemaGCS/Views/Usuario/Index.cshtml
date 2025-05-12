@@ -1,0 +1,48 @@
+﻿@model List<SistemaGCS.Models.Usuario>
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+<h2>Gestión de Usuarios</h2>
+
+<div class="mb-3">
+    <a href="~/Usuario/Agregar" class="btn btn-info">Registrar Usuario</a>
+</div>
+
+@using (Html.BeginForm("Index", "Usuario", FormMethod.Get))
+{
+    <div class="form-inline mb-3">
+        <input type="text" name="criterio" class="form-control mr-2" placeholder="Buscar por nombre, apellido o correo..." />
+        <br/>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Tipo de Usuario</th>
+            <th>Apellidos y Nombres</th>
+            <th>Email</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@m.Id_usuario</td>
+                <td>@m.Tipo_Usuario.Nombre</td>
+                <td>@m.Apellido, @m.Nombre</td>
+                <td>@m.Correo</td>
+                <td>@(m.Estado == "A" ? "Activo" : "Inactivo")</td>
+                <td>
+                    <a href="~/Usuario/Agregar/@m.Id_usuario" class="btn btn-outline-success btn-sm">Editar</a>
+                    <a href="~/Usuario/Eliminar/@m.Id_usuario" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Deseas desactivar este usuario?');">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

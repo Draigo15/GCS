@@ -1,0 +1,54 @@
+﻿@model List<SistemaGCS.Models.Fase>
+@{
+    ViewBag.Title = "Index";
+
+    List<SistemaGCS.Models.Fase> TipoU = ViewBag.listar;
+}
+
+<!-- Page header -->
+<dv class="full-box page-header">
+    <h3 class="text-left">
+               
+        <a href="##" class="btn btn-primary" onClick="history.go(-1); return false;">Volver</a>
+                
+    </h3>
+
+</dv>
+<!--CONTENT-->
+<!-- Content here-->
+<div class="container-fluid">
+    @using (Html.BeginForm("IndexListar", "Fase", FormMethod.Post))
+    {
+    }
+    <div class="table-responsive">
+        <table id="datatable" class="display" style="width:100%">
+            <thead>
+                <tr class="text-center">
+
+                    <th>#</th>
+
+                    <th>Nombre</th>
+                    <th>Metodologia</th>
+                    <th>OPCIONES</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in TipoU)
+                {
+                    <tr class="text-center">
+                        <td>@(item.Id_fase)</td>
+                        <td>@(item.Nombre)</td>
+                        <td>@(item.Metodologia.Nombre)</td>
+                        <td>
+                            @*<a onclick="return confirm('Esta Seguro que desea Actualizar Datos del registro?')" href="~/Miembro_Proyecto/Agregar/@item.Id_fase" class="btn btn-primary">Editar</a>*@
+                            @*<a onclick="return confirm('Esta Seguro que desea Cancelar el registro?')" href="~/Miembro_Proyecto" class="btn btn-danger">Cancelar</a>*@
+                            <a href="~/Elemento_Configuracion/IndexListar/@item.Id_fase" class="btn btn-outline-info">Ver Elementos</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

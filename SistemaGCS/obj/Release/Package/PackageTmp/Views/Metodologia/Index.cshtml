@@ -1,0 +1,40 @@
+﻿@model List<SistemaGCS.Models.Metodologia>
+@{ ViewBag.Title = "Index"; }
+
+<h2>Listado de Metodologia</h2>
+<h2 class="pagegeader">
+    <a href="~/Metodologia/Agregar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Metodologia", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+        <tr>
+            <td>@(m.Id_metodologia)</td>
+            <td>@(m.Nombre)</td>
+            
+            <td>
+
+                <a href="~/Metodologia/Agregar/@m.Id_metodologia" class="btn btn-outline-success">EDITAR</a>
+        
+
+            </td>
+        </tr>}
+    </tbody>
+</table>
+

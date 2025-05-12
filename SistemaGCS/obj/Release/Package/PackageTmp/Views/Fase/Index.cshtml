@@ -1,0 +1,41 @@
+﻿@model List<SistemaGCS.Models.Fase>
+@{ ViewBag.Title = "Index"; }
+
+<h2>Listado de Fase</h2>
+<h2 class="pagegeader">
+    <a href="~/Fase/AgregarEditar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Fase", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Metodologia</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+<tr>
+    <td>@(m.Id_fase)</td>
+    <td>@(m.Nombre)</td>
+    <td>@(m.Metodologia.Nombre)</td>
+    <td>
+
+        <a href="~/Fase/AgregarEditar/@m.Id_fase" class="btn btn-outline-success">EDITAR</a>
+        @*<a onclick="return confirm('Esta Seguro que desea eliminar el registro?')" href="~/Fase/Eliminar/@m.Id_fase" class="btn btn-danger">ELIMINAR</a>*@
+
+    </td>
+</tr>
+}
+    </tbody>
+</table>

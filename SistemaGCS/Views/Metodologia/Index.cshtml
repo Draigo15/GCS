@@ -1,0 +1,57 @@
+﻿@model List<SistemaGCS.Models.Metodologia>
+@{
+    ViewBag.Title = "Gestión de Metodologías";
+}
+
+<h2>Gestión de Metodologías</h2>
+
+<div class="mb-3">
+    <a href="~/Metodologia/Agregar" class="btn btn-info">Registrar Metodología</a>
+</div>
+
+@using (Html.BeginForm("Index", "Metodologia", FormMethod.Get))
+{
+    <div class="form-row mb-3">
+        <div class="col-md-4">
+            <input type="text" name="criterio" class="form-control" placeholder="Nombre de la Metodología..." value="@Request["criterio"]" />
+        </div>
+        <div class="col-md-3">
+            <select name="ordenarPor" class="form-control">
+                <option value="nombre" @(Request["ordenarPor"] == "nombre" ? "selected" : "")>Nombre</option>
+                <option value="id" @(Request["ordenarPor"] == "id" ? "selected" : "")>ID</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <select name="limite" class="form-control">
+                <option value="5" @(Request["limite"] == "5" ? "selected" : "")>5</option>
+                <option value="10" @(Request["limite"] == "10" ? "selected" : "")>10</option>
+                <option value="15" @(Request["limite"] == "15" ? "selected" : "")>15</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </div>
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@m.Id_metodologia</td>
+                <td>@m.Nombre</td>
+                <td>
+                    <a href="~/Metodologia/Visualizar/@m.Id_metodologia" class="btn btn-outline-primary btn-sm">Ver</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

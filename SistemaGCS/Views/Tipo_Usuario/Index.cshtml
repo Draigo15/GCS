@@ -1,0 +1,42 @@
+﻿@model List<SistemaGCS.Models.Tipo_Usuario>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Tipo Usuario</h2>
+<h2 class="pagegeader">
+    <a href="~/Tipo_Usuario/Agregar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Tipo_Usuario", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th >Id</th>
+            <th >Nombre</th>
+            <th >Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@(m. Id_tipousuario)</td>
+                <td>@(m.Nombre)</td>
+                <td>
+                    
+                    <a href="~/Tipo_Usuario/Agregar/@m.Id_tipousuario" class="btn btn-success">Editar</a>
+                    <a onclick="return confirm('Esta Seguro que desea eliminar el registro?')" href="~/Tipo_Usuario/Eliminar/@m.Id_tipousuario" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <p></p>
+</table>
+

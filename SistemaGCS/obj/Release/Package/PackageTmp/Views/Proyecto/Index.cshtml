@@ -1,0 +1,62 @@
+﻿@model List<SistemaGCS.Models.Proyecto>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Proyecto</h2>
+<h2 class="pagegeader">
+    <a href="~/Proyecto/Estado" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Proyecto", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Estado</th>
+            <th>Metodologia</th>
+            <th>Solicitud</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@(m.Id_proyecto)</td>
+                <td>@(m.Codigo)</td>
+                <td>@(m.Nombre)</td>
+                <td>@(m.FechaInicio)</td>
+                <td>@(m.FechaTermino)</td>
+                <td>@(m.Estado)</td>
+                <td>@(m.Metodologia.Nombre)</td>
+                <td>@(m.Solicitud_Cambios.Objetivo)</td>
+                
+                <td>
+
+                    <a href="~/Proyecto/Agregar/@m.Id_proyecto" class="btn btn-success">Editar</a>
+                    @*<a href="~/Miembro_Proyecto/Agregar/@m.Id_proyecto" class="btn btn-success">Agregar Miembros al Proyecto</a>*@
+                    @*<a href="~/Miembro_Proyecto/Agregar/@m.Id_proyecto" class="btn btn-info">Agregar Miembros al Proyecto</a>*@
+                    @*<a onclick="return confirm('Usted esta?')" href="~/Miembro_Proyecto/Agregar/@m.Id_proyecto" class="btn btn-info">Agregar Miembros al Proyecto</a>*@
+                    <a href="~/Miembro_Proyecto/IndexListar/@m.Id_proyecto" class="btn btn-outline-info">Ver Miembros</a>
+                    <a href="~/Fase/IndexListar/@m.Id_metodologia" class="btn btn-outline-warning">Ver Fases</a>
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+    <p></p>
+</table>
+
+

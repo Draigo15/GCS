@@ -1,0 +1,42 @@
+﻿@model List<SistemaGCS.Models.Cronograma>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cronograma</h2>
+<h2 class="pagegeader">
+    <a href="~/Cronograma/Agregar" class="btn btn-info text-right">Nuevo registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Cronograma", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@(m.Id_cronograma)</td>
+                <td>@(m.Nombre)</td>
+                <td>@(m.Descripcion)</td>
+                <td>@(m.FechaInicio)</td>
+                <td>@(m.Fechafin)</td>
+
+            </tr>
+        }
+    </tbody>
+    <p></p>
+</table>

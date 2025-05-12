@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Admin Dashboard</h1>
+
+    <div class="row">
+        <div class="col-xl-3 col-sm-6 d-flex">
+            <div class="card flex-fill">
+                <div class="card-body py-4">
+                    <div class="d-flex align-items-start">
+                        <div class="flex-grow-1">
+                            <h5 class="mb-2">Projects</h5>
+                            <h3 class="mb-0">@ViewBag.TotalProyectos</h3>
+                        </div>
+                        <div class="ms-3 d-none d-lg-block">
+                            <i class="align-middle" data-feather="folder"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 d-flex">
+            <div class="card flex-fill">
+                <div class="card-body py-4">
+                    <div class="d-flex align-items-start">
+                        <div class="flex-grow-1">
+                            <h5 class="mb-2">Users</h5>
+                            <h3 class="mb-0">@ViewBag.TotalUsuarios</h3>
+                        </div>
+                        <div class="ms-3 d-none d-lg-block">
+                            <i class="align-middle" data-feather="users"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 d-flex">
+            <div class="card flex-fill">
+                <div class="card-body py-4">
+                    <div class="d-flex align-items-start">
+                        <div class="flex-grow-1">
+                            <h5 class="mb-2">Changes</h5>
+                            <h3 class="mb-0">@ViewBag.TotalCambios</h3>
+                        </div>
+                        <div class="ms-3 d-none d-lg-block">
+                            <i class="align-middle" data-feather="repeat"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 d-flex">
+            <div class="card flex-fill">
+                <div class="card-body py-4">
+                    <div class="d-flex align-items-start">
+                        <div class="flex-grow-1">
+                            <h5 class="mb-2">Team</h5>
+                            <h3 class="mb-0">@ViewBag.TotalMiembros</h3>
+                        </div>
+                        <div class="ms-3 d-none d-lg-block">
+                            <i class="align-middle" data-feather="user-check"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Usuarios por Tipo</div>
+                <div class="card-body">
+                    <canvas id="usuariosChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Proyectos por Estado</div>
+                <div class="card-body">
+                    <canvas id="proyectosChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const usuariosCtx = document.getElementById('usuariosChart').getContext('2d');
+        const proyectosCtx = document.getElementById('proyectosChart').getContext('2d');
+
+        const usuariosChart = new Chart(usuariosCtx, {
+            type: 'doughnut',
+            data: {
+                labels: @Html.Raw(Json.Encode(ViewBag.UsuariosLabels)),
+                datasets: [{
+                    label: 'Usuarios',
+                    data: @Html.Raw(Json.Encode(ViewBag.UsuariosData)),
+                    backgroundColor: ['#007bff', '#28a745', '#ffc107', '#dc3545', '#6c757d'],
+                    borderWidth: 1
+                }]
+            }
+        });
+
+        const proyectosChart = new Chart(proyectosCtx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Encode(ViewBag.ProyectosLabels)),
+                datasets: [{
+                    label: 'Proyectos',
+                    data: @Html.Raw(Json.Encode(ViewBag.ProyectosData)),
+                    backgroundColor: '#17a2b8',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+    </script>
+}

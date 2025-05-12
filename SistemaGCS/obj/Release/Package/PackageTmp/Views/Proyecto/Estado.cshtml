@@ -1,0 +1,92 @@
+﻿@model List<SistemaGCS.Models.Proyecto>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Informe de Estado</h2>
+<h2 class="pagegeader">
+    <a href="~/Proyecto/Estado" class="btn btn-info text-right">Nuevo Informe</a>
+
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Proyecto", FormMethod.Post))
+{
+    <div class="card">
+        <div class="card-header">Informacion del Estado</div>
+        <div class="card-body">
+            <div class="form-group">
+                <label>No. de solictud:</label>
+                <br />
+                <input id="Estado" name="Estado" type="text" value="" />
+                <br />
+                <label>Fecha Inicio:</label> &emsp;&emsp;<label>Fecha Final:</label>
+                <br />
+                <input type="date" id="start" name="trip-start" value="2022-12-04" min="2022-01-01" max="2022-12-31">
+                <input type="date" id="start" name="trip-start" value="2022-12-04" min="2022-01-01" max="2022-12-31">
+                <br />
+                <label>Proyecto / Producto:</label>
+                <br />
+                <select name="pro" id="pro">
+                    <option value="22">SISTEMA DE RESTAURANTE</option>
+                    <option value="33">SISTEMA DE ASISTENCIA</option>
+                    <option value="44">SISTEMA DE VENTAS</option>
+                    <option value="55">Sistema de Gestión de Configuración de Software</option>
+                </select>
+                <br />
+                <label>Nombre del Documento:</label>
+                <br />
+                <input id="Estado" name="Estado" type="text" value="" />
+                <br />
+                <label>Descripcion:</label>
+                <br />
+                <textarea name="comentarios" rows="5" cols="60">Escribe aquí la descripción</textarea>
+                <br />
+                <label>Elemento de Configuración del software afectado:</label>
+                <br />
+                <input id="Estado" name="Estado" type="text" value="" />
+                <br />
+                <label>Estado:</label>
+                <br />
+                <input id="Estado" name="Estado" type="text" value="" />
+                <br />
+                <label>Responsable:</label>
+                <br />
+                <input id="Estado" name="Estado" type="text" value="" />
+                <br />
+                <label>Porcentaje:</label>
+                <br />
+                <input id="Estado" name="Estado" type="text" value="" />%
+                <br />
+                <label>Estado de implementación de los cambios aprobados:</label>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="huey" name="drone" value="huey"
+                               checked>
+                        <label for="huey">Aprobado</label>
+                        <input type="radio" id="dewey" name="drone" value="dewey">
+                        <label for="dewey">Desaprobado</label>
+                        <input type="radio" id="louie" name="drone" value="louie">
+                        <label for="louie">En proceso</label>
+                    </div>
+                </fieldset>
+                <label>Impacto del Sistema:</label>
+                <br />
+                <textarea name="comentarios" rows="5" cols="60">Escribe aquí el impacto del sistema...</textarea>
+                <br />
+            </div>
+
+        </div>
+
+        <div class="text-right">
+            <button type="submit" class="btn btn-outline-primary">Guardar</button>
+            <a href="~/Usuario" class="btn btn-outline-danger">Cancelar</a>
+        </div>
+        <br /><br /><br />
+
+
+    </div>
+}
+
+

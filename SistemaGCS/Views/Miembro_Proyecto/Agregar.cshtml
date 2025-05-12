@@ -1,0 +1,89 @@
+﻿@model SistemaGCS.Models.Miembro_Proyecto
+@{
+    ViewBag.Title = "Agregar";
+    List<SistemaGCS.Models.Proyecto> TipoP = ViewBag.Tipopro;
+    List<SistemaGCS.Models.Rol> TipoR = ViewBag.Tiporol;
+    List<SistemaGCS.Models.Usuario> TipoU = ViewBag.Tipousua;
+
+    
+
+
+
+}
+
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-plus fa-fw"></i> &nbsp; Administracion de MIEMBROS DE PROYECTO
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+<!--CONTENT-->
+<!-- Content here-->
+<div class="container-fluid">
+    @using (Html.BeginForm("Guardar", "Miembro_Proyecto", FormMethod.Post, new { id = "frm-productos" }))
+    {
+        @Html.HiddenFor(x => x.Id_miembro)
+        <div><i class="fas fa-user"></i> &nbsp; CREANDO NUEVA MIEMBRO</div>
+        <div class="row">
+
+            <div class="col-12 col-md-6">
+                <div class="form-group">
+                    <label for="Id_usuario" class="bmd-label-floating">Usuario:</label>
+                    <select name="Id_usuario" class="form-control">
+                        <option @(Model.Id_usuario.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                        @foreach (var t in TipoU)
+                        {
+                            <option @(Model.Id_usuario.Equals(t.Id_usuario) ? "selected" : "")
+                                    value="@t.Id_usuario">
+                                @t.Nombre
+                            </option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(x => x.Id_usuario, null, new { @class = "label label-danger" })
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="form-group">
+                    <label for="Id_rol" class="bmd-label-floating">Rol:</label>
+                    <select name="Id_rol" class="form-control">
+                        <option @(Model.Id_rol.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                        @foreach (var t in TipoR)
+                        {
+                            <option @(Model.Id_rol.Equals(t.Id_rol) ? "selected" : "")
+                                    value="@t.Id_rol">
+                                @t.Nombre
+                            </option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(x => x.Id_rol, null, new { @class = "label label-danger" })
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="form-group">
+                    <label for="Id_proyecto" class="bmd-label-floating">PROYECTO:</label>
+                    <select name="Id_proyecto" class="form-control">
+                        <option @(Model.Id_proyecto.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                        @foreach (var t in TipoP)
+                        {
+                            <option @(Model.Id_proyecto.Equals(t.Id_proyecto) ? "selected" : "")
+                                    value="@t.Id_proyecto">
+                                @t.Nombre
+                            </option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(x => x.Id_proyecto, null, new { @class = "label label-danger" })
+                </div>
+            </div>
+
+        </div>
+        <p class="text-center" style="margin-top: 40px;">
+            <button type="submit" class="btn btn-outline-primary"><i class="far fa-save"></i> &nbsp; Registrar</button>
+            &nbsp; &nbsp;
+            <a href="~/Miembro_Proyecto" class="btn btn-outline-danger">Cancelar</a>
+        </p>
+    }
+</div>
+

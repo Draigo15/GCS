@@ -1,0 +1,48 @@
+﻿@model List<SistemaGCS.Models.Elemento_Configuracion>
+@{ ViewBag.Title = "Index"; }
+
+<h2>Listado de Elemento Configuracion</h2>
+<h2 class="pagegeader">
+    <a href="~/Elemento_Configuracion/Agregar" class="btn btn-info text-right">Nuevo Registro</a>
+
+</h2>
+<br />
+<br />
+@using (Html.BeginForm("Index", "Elemento_Configuracion", FormMethod.Post))
+{
+
+}
+
+<table id="datatable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Nomenclatura</th>
+            <th>Fase</th>
+            
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+        <tr>
+            <td>@(m.Id_elementoconfiguracion)</td>
+            <td>@(m.Codigo)</td>
+            <td>@(m.Nombre)</td>
+            <td>@(m.Nomenclatura)</td>
+            <td>@(m.Fase.Nombre) - @(m.Fase.Metodologia.Nombre) </td>
+
+            <td>
+
+                <a href="~/Elemento_Configuracion/Agregar/@m.Id_elementoconfiguracion" class="btn btn-outline-success">EDITAR</a>
+                @*<a onclick="return confirm('Esta Seguro que desea eliminar el registro?')" href="~/Elemento_Configuracion/Eliminar/@m.Id_elementoconfiguracion" class="btn btn-danger">ELIMINAR</a>*@
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
