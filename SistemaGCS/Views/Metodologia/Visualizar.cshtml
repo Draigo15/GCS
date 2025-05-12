@@ -1,57 +1,73 @@
-﻿@model List<SistemaGCS.Models.Metodologia>
+﻿@model SistemaGCS.Models.Metodologia
 @{
-    ViewBag.Title = "Gestión de Metodologías";
+    ViewBag.Title = "Visualizar Fases";
 }
 
-<h2>Gestión de Metodologías</h2>
+<h2>Metodología: @Model.Nombre</h2>
 
-<div class="mb-3">
-    <a href="~/Metodologia/Agregar" class="btn btn-info">Registrar Metodología</a>
+<div class="text-right mb-3">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarFase">
+        + FASE
+    </button>
 </div>
 
-@using (Html.BeginForm("Index", "Metodologia", FormMethod.Get))
-{
-    <div class="form-row mb-3">
-        <div class="col-md-4">
-            <input type="text" name="criterio" class="form-control" placeholder="Nombre de la Metodología..." value="@Request["criterio"]" />
-        </div>
-        <div class="col-md-3">
-            <select name="ordenarPor" class="form-control">
-                <option value="nombre" @(Request["ordenarPor"] == "nombre" ? "selected" : "")>Nombre</option>
-                <option value="id" @(Request["ordenarPor"] == "id" ? "selected" : "")>ID</option>
-            </select>
-        </div>
-        <div class="col-md-2">
-            <select name="limite" class="form-control">
-                <option value="5" @(Request["limite"] == "5" ? "selected" : "")>5</option>
-                <option value="10" @(Request["limite"] == "10" ? "selected" : "")>10</option>
-                <option value="15" @(Request["limite"] == "15" ? "selected" : "")>15</option>
-            </select>
-        </div>
-        <div class="col-md-3">
-            <button type="submit" class="btn btn-primary">Buscar</button>
-        </div>
-    </div>
-}
-
-<table id="datatable" class="display" style="width:100%">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var m in Model)
-        {
-            <tr>
-                <td>@m.Id_metodologia</td>
-                <td>@m.Nombre</td>
-                <td>
-                    <a href="~/Metodologia/Visualizar/@m.Id_metodologia" class="btn btn-outline-primary btn-sm">Ver</a>
-                </td>
+<div class="table-responsive">
+    <table id="datatable" class="display" style="width:100%">
+        <thead>
+            <tr class="text-center">
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Opciones</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var fase in Model.Fase)
+            {
+                <tr class="text-center">
+                    <td>@fase.Id_fase</td>
+                    <td>@fase.Nombre</td>
+                    <td>@fase.Descripcion</td> <!-- Solo si usas campo Descripción -->
+                    <td>
+                        <a href="~/Elemento_Configuracion/IndexListar/@fase.Id_fase" class="btn btn-outline-info btn-sm">Ver Elementos</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Agregar Fase -->
+<div class="modal fade" id="modalAgregarFase" tabindex="-1" role="dialog" aria-labelledby="modalAgregarFaseLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        @using (Html.BeginForm("AgregarFase", "Metodologia", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modalAgregarFaseLabel">Nueva Fase de Configuración</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @Html.Hidden("Id_metodologia", Model.Id_metodologia)
+
+                    <div class="form-group">
+                        <label for="NombreFase">Nombre de la Fase *</label>
+                        <input type="text" name="NombreFase" class="form-control" placeholder="Nombre de la fase..." required />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Nombre de la Metodología</label>
+                        <input type="text" class="form-control" value="@Model.Nombre" disabled />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">CREAR ELEMENTO</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
         }
-    </tbody>
-</table>
+    </div>
+</div>

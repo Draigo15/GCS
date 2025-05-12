@@ -23,6 +23,10 @@ namespace SistemaGCS.Models
         [StringLength(50)]
         public string Nombre { get; set; }
 
+        [StringLength(255)]
+        public string Descripcion { get; set; }
+
+
         public int Id_metodologia { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -57,8 +57,7 @@ namespace SistemaGCS.Controllers
         ///NUEVOS METODOS
         public ActionResult IndexListar(int id)
         {
-            ViewBag.listar = objFase.Listarid(id);
-
+            ViewBag.listar = objFase.ListarPorMetodologia(id);
             return View();
                         
         }

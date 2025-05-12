@@ -80,8 +80,10 @@ namespace SistemaGCS.Models
             {
                 using (var db = new ModelGCS())
                 {
-                    metodologia = db.Metodologia.Where(x => x.Id_metodologia == id)
-                                .SingleOrDefault();
+                    metodologia = db.Metodologia
+                        .Include("Fase") //  Esto fuerza la carga anticipada
+                        .Where(x => x.Id_metodologia == id)
+                        .SingleOrDefault();
                 }
             }
             catch (Exception)
@@ -91,6 +93,7 @@ namespace SistemaGCS.Models
 
             return metodologia;
         }
+
         //Metodo Guardar o Registrar
         public void Guardar()
         {

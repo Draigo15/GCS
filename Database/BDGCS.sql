@@ -34,6 +34,7 @@ GO
 CREATE TABLE [dbo].[Fase](
 	[Id_fase] [int] IDENTITY(1,1) NOT NULL,
 	[Nombre] [varchar](50) NULL,
+	[Descripcion] [varchar](255) NULL,
 	[Id_metodologia] [int] NOT NULL,
  CONSTRAINT [PK_Fase] PRIMARY KEY CLUSTERED 
 (
