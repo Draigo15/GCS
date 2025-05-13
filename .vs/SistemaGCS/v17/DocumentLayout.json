@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\controllers\\elemento_configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\controllers\\elemento_configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\models\\elemento_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\models\\elemento_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|c:\\users\\carus\\onedrive\\escritorio\\gestion de la configuracion\\sistemagcs\\sistemagcs\\views\\elemento_configuracion\\indexlistar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\elemento_configuracion\\indexlistar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\elemento_configuracion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\elemento_configuracion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\elemento_configuracion\\agregarunico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\elemento_configuracion\\agregarunico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\fase\\indexlistar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\fase\\indexlistar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\metodologia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\metodologia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\metodologia\\visualizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,15 +39,11 @@
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\metodologia\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\metodologia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\metodologia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|c:\\users\\carus\\onedrive\\escritorio\\gestion de la configuracion\\sistemagcs\\sistemagcs\\controllers\\metodologiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\controllers\\metodologiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\controllers\\metodologiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,12 +51,8 @@
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\models\\fase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|c:\\users\\carus\\onedrive\\escritorio\\gestion de la configuracion\\sistemagcs\\sistemagcs\\views\\fase\\agregareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\fase\\agregareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\fase\\agregareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|c:\\users\\carus\\onedrive\\escritorio\\gestion de la configuracion\\sistemagcs\\sistemagcs\\views\\fase\\indexlistar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\views\\fase\\indexlistar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\views\\fase\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -135,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\models\\cronograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\models\\elemento_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\models\\elemento_configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\models\\modelgcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\models\\modelgcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -193,10 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\models\\miembro_elemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\models\\miembro_elemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\sistemagcs\\controllers\\elemento_configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17EC0CC0-ED19-4767-94BF-0A00F1669FA0}|SistemaGCS\\SistemaGCS.csproj|solutionrelative:sistemagcs\\controllers\\elemento_configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -206,28 +214,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgregarUnico.cshtml",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Elemento_Configuracion\\AgregarUnico.cshtml",
+              "RelativeDocumentMoniker": "SistemaGCS\\Views\\Elemento_Configuracion\\AgregarUnico.cshtml",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Elemento_Configuracion\\AgregarUnico.cshtml",
+              "RelativeToolTip": "SistemaGCS\\Views\\Elemento_Configuracion\\AgregarUnico.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T07:19:40.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IndexListar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Elemento_Configuracion\\IndexListar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Elemento_Configuracion\\IndexListar.cshtml",
               "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Elemento_Configuracion\\IndexListar.cshtml",
               "RelativeToolTip": "SistemaGCS\\Views\\Elemento_Configuracion\\IndexListar.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwDoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-12T22:02:41.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IndexListar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Fase\\IndexListar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Fase\\IndexListar.cshtml",
@@ -235,51 +251,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Fase\\IndexListar.cshtml",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T21:24:25.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T21:24:25.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Metodologia\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaGCS\\Views\\Metodologia\\Index.cshtml",
-              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Metodologia\\Index.cshtml",
-              "RelativeToolTip": "SistemaGCS\\Views\\Metodologia\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T20:27:35.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaGCS\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SistemaGCS\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Tipo_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Tipo_Usuario.cs",
-              "RelativeDocumentMoniker": "SistemaGCS\\Models\\Tipo_Usuario.cs",
-              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Tipo_Usuario.cs",
-              "RelativeToolTip": "SistemaGCS\\Models\\Tipo_Usuario.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Usuario.cs",
@@ -287,12 +263,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Usuario.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAUwCAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "MetodologiaController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\MetodologiaController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\MetodologiaController.cs",
@@ -300,12 +275,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\MetodologiaController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "FaseController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\FaseController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\FaseController.cs",
@@ -313,12 +287,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\FaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Visualizar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Metodologia\\Visualizar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Metodologia\\Visualizar.cshtml",
@@ -326,12 +299,89 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Metodologia\\Visualizar.cshtml",
               "ViewState": "AgIAACUAAAAAAAAAAAAUwEQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T20:31:04.324Z",
+              "WhenOpened": "2025-05-12T20:31:04.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Elemento_ConfiguracionController.cs",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
+              "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
+              "RelativeToolTip": "SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAiwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T23:43:27.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Elemento_Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Elemento_Configuracion.cs",
+              "RelativeDocumentMoniker": "SistemaGCS\\Models\\Elemento_Configuracion.cs",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Elemento_Configuracion.cs",
+              "RelativeToolTip": "SistemaGCS\\Models\\Elemento_Configuracion.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T23:43:27.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Elemento_Configuracion\\Editar.cshtml",
+              "RelativeDocumentMoniker": "SistemaGCS\\Views\\Elemento_Configuracion\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Elemento_Configuracion\\Editar.cshtml",
+              "RelativeToolTip": "SistemaGCS\\Views\\Elemento_Configuracion\\Editar.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T07:30:04.407Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Metodologia\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaGCS\\Views\\Metodologia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Metodologia\\Index.cshtml",
+              "RelativeToolTip": "SistemaGCS\\Views\\Metodologia\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T20:27:35.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Tipo_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Tipo_Usuario.cs",
+              "RelativeDocumentMoniker": "SistemaGCS\\Models\\Tipo_Usuario.cs",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Tipo_Usuario.cs",
+              "RelativeToolTip": "SistemaGCS\\Models\\Tipo_Usuario.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T23:43:27.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaGCS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SistemaGCS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T23:43:27.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Shared\\_Layout.cshtml",
@@ -339,12 +389,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAKQAAAAAAAAAAAAcwMUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Agregar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Metodologia\\Agregar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Metodologia\\Agregar.cshtml",
@@ -352,12 +401,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Metodologia\\Agregar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T20:27:34.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T20:27:34.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "AgregarEditar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Fase\\AgregarEditar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Fase\\AgregarEditar.cshtml",
@@ -365,12 +413,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Fase\\AgregarEditar.cshtml",
               "ViewState": "AgIAACAAAAAAAAAAAAAkwCsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T21:24:28.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T21:24:28.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AdminDashboardController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\AdminDashboardController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\AdminDashboardController.cs",
@@ -378,12 +425,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\AdminDashboardController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Fase.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Fase.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Fase.cs",
@@ -391,12 +437,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Fase.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Metodologia.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Metodologia.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Metodologia.cs",
@@ -404,12 +449,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Metodologia.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAswFMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Fase\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Fase\\Index.cshtml",
@@ -417,12 +461,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Fase\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Usuario\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Usuario\\Index.cshtml",
@@ -430,12 +473,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Usuario\\Index.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAYwCQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T02:33:50.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T02:33:50.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\AdminDashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\AdminDashboard\\Index.cshtml",
@@ -443,12 +485,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\AdminDashboard\\Index.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAkwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:26.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:26.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\DesarrolladorDashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\DesarrolladorDashboard\\Index.cshtml",
@@ -456,12 +497,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\DesarrolladorDashboard\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:26.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:26.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\UsuarioController.cs",
@@ -469,12 +509,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Agregar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Usuario\\Agregar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Usuario\\Agregar.cshtml",
@@ -482,12 +521,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Usuario\\Agregar.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Login\\Index.cshtml",
@@ -495,12 +533,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Login\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:26.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:26.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "DesarrolladorDashboardController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\DesarrolladorDashboardController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\DesarrolladorDashboardController.cs",
@@ -508,12 +545,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\DesarrolladorDashboardController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:26.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:26.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\HomeController.cs",
@@ -521,12 +557,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:26.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:26.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Source\\css\\app.css",
               "RelativeDocumentMoniker": "SistemaGCS\\Source\\css\\app.css",
@@ -534,12 +569,11 @@
               "RelativeToolTip": "SistemaGCS\\Source\\css\\app.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAgAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-10T23:54:58.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:54:58.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\App_Start\\RouteConfig.cs",
@@ -547,12 +581,11 @@
               "RelativeToolTip": "SistemaGCS\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:51:25.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:51:25.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "CronogramaController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\CronogramaController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\CronogramaController.cs",
@@ -560,12 +593,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\CronogramaController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:26.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:26.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\LoginController.cs",
@@ -573,12 +605,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAmwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Tipo_UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\Tipo_UsuarioController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\Tipo_UsuarioController.cs",
@@ -586,12 +617,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\Tipo_UsuarioController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Rol\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Rol\\Index.cshtml",
@@ -599,12 +629,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Rol\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "ModelGCS.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\ModelGCS.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\ModelGCS.cs",
@@ -612,12 +641,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\ModelGCS.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwMwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Cronograma.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Cronograma.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Cronograma.cs",
@@ -625,12 +653,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Cronograma.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Cronograma\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Cronograma\\Index.cshtml",
@@ -638,12 +665,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Cronograma\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Estado.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Proyecto\\Estado.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Proyecto\\Estado.cshtml",
@@ -651,12 +677,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Proyecto\\Estado.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Agregar.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Cronograma\\Agregar.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Cronograma\\Agregar.cshtml",
@@ -664,25 +689,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Cronograma\\Agregar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Elemento_Configuracion.cs",
-              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Elemento_Configuracion.cs",
-              "RelativeDocumentMoniker": "SistemaGCS\\Models\\Elemento_Configuracion.cs",
-              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Elemento_Configuracion.cs",
-              "RelativeToolTip": "SistemaGCS\\Models\\Elemento_Configuracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ProyectoController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\ProyectoController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\ProyectoController.cs",
@@ -690,12 +701,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\ProyectoController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\Proyecto\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\Proyecto\\Index.cshtml",
@@ -703,12 +713,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\Proyecto\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "SistemaGCS\\Views\\_ViewStart.cshtml",
@@ -716,12 +725,11 @@
               "RelativeToolTip": "SistemaGCS\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:43:27.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\RolController.cs",
@@ -729,12 +737,11 @@
               "RelativeToolTip": "SistemaGCS\\Controllers\\RolController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Proyecto.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Proyecto.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Proyecto.cs",
@@ -742,12 +749,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Proyecto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "Solicitud.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Solicitud.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Solicitud.cs",
@@ -755,12 +761,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Solicitud.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Rol.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Rol.cs",
@@ -768,12 +773,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Rol.cs",
               "ViewState": "AgIAABoAAAAAAAAAAADwv4QAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "Miembro_Proyecto.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Miembro_Proyecto.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Miembro_Proyecto.cs",
@@ -781,12 +785,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Miembro_Proyecto.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Miembro_Elemento.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Miembro_Elemento.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Miembro_Elemento.cs",
@@ -794,12 +797,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Miembro_Elemento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Web.config",
               "RelativeDocumentMoniker": "SistemaGCS\\Web.config",
@@ -812,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Solicitud_Cambios.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\Solicitud_Cambios.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\Solicitud_Cambios.cs",
@@ -820,12 +822,11 @@
               "RelativeToolTip": "SistemaGCS\\Models\\Solicitud_Cambios.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAQwJQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "sysdiagrams.cs",
               "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Models\\sysdiagrams.cs",
               "RelativeDocumentMoniker": "SistemaGCS\\Models\\sysdiagrams.cs",
@@ -833,21 +834,7 @@
               "RelativeToolTip": "SistemaGCS\\Models\\sysdiagrams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Elemento_ConfiguracionController.cs",
-              "DocumentMoniker": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
-              "RelativeDocumentMoniker": "SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
-              "ToolTip": "C:\\Users\\carus\\OneDrive\\Escritorio\\Gestion de la configuracion\\SistemaGCS\\SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
-              "RelativeToolTip": "SistemaGCS\\Controllers\\Elemento_ConfiguracionController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:43:27.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:43:27.578Z"
             }
           ]
         }

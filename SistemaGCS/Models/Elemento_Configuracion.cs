@@ -19,15 +19,22 @@ namespace SistemaGCS.Models
         [Key]
         public int Id_elementoconfiguracion { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "El código es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El código no puede superar los 50 caracteres.")]
         public string Codigo { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "El nombre es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El nombre no puede superar los 50 caracteres.")]
         public string Nombre { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "La nomenclatura es obligatoria.")]
+        [StringLength(50, ErrorMessage = "La nomenclatura no puede superar los 50 caracteres.")]
         public string Nomenclatura { get; set; }
 
+        [StringLength(1)]
+        public string Estado { get; set; }
+
+        [Required(ErrorMessage = "Debe asignar una fase.")]
         public int Id_fase { get; set; }
 
         public virtual Fase Fase { get; set; }
@@ -44,8 +51,10 @@ namespace SistemaGCS.Models
             {
                 using (var db = new ModelGCS())
                 {
-                    elementoConfiguracion = db.Elemento_Configuracion.Include("Fase.Metodologia").ToList();
-
+                    elementoConfiguracion = db.Elemento_Configuracion
+                        .Include("Fase.Metodologia")
+                        .Where(x => x.Estado == "A")
+                        .ToList();
                 }
             }
             catch (Exception)
@@ -54,8 +63,8 @@ namespace SistemaGCS.Models
             }
 
             return elementoConfiguracion;
-
         }
+
         //Metodo Obtener
         public Elemento_Configuracion Obtener(int id)
         {
@@ -105,6 +114,12 @@ namespace SistemaGCS.Models
             {
                 using (var db = new ModelGCS())
                 {
+                    // Si es nuevo y no se asignó estado, marcar como activo
+                    if (this.Id_elementoconfiguracion == 0 && string.IsNullOrEmpty(this.Estado))
+                    {
+                        this.Estado = "A";
+                    }
+
                     if (this.Id_elementoconfiguracion > 0)
                     {
                         db.Entry(this).State = EntityState.Modified;
@@ -114,7 +129,6 @@ namespace SistemaGCS.Models
                         db.Entry(this).State = EntityState.Added;
                     }
                     db.SaveChanges();
-
                 }
             }
             catch (Exception ex)
@@ -123,7 +137,7 @@ namespace SistemaGCS.Models
                 throw;
             }
         }
-
+    
 
         //listarid
         public List<Elemento_Configuracion> Listarid(int id)
@@ -133,7 +147,10 @@ namespace SistemaGCS.Models
             {
                 using (var db = new ModelGCS())
                 {
-                    miembro = db.Elemento_Configuracion.Include("Fase.Metodologia").Where(x => x.Id_fase == id).ToList();
+                    miembro = db.Elemento_Configuracion
+                        .Include("Fase.Metodologia")
+                        .Where(x => x.Id_fase == id && x.Estado == "A")
+                        .ToList();
                 }
             }
             catch (Exception)

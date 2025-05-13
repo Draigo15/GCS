@@ -1,0 +1,56 @@
+﻿@model SistemaGCS.Models.Elemento_Configuracion
+@{
+    ViewBag.Title = "Editar Elemento";
+    List<SistemaGCS.Models.Fase> fases = ViewBag.Fase;
+}
+
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-edit fa-fw"></i> &nbsp; Editar Elemento de Configuración
+    </h3>
+</div>
+
+@using (Html.BeginForm("GuardarUnico", "Elemento_Configuracion", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.Id_elementoconfiguracion)
+    @Html.HiddenFor(x => x.Id_fase)
+
+    <div class="card">
+        <div class="card-header">Información del Elemento de Configuración</div>
+        <div class="card-body">
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Codigo)
+                @Html.TextBoxFor(x => x.Codigo, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Codigo, null, new { @class = "label label-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Nombre)
+                @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Nombre, null, new { @class = "label label-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Nomenclatura)
+                @Html.TextBoxFor(x => x.Nomenclatura, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Nomenclatura, null, new { @class = "label label-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Estado")
+                <select name="Estado" class="form-control">
+                    <option value="A" @(Model.Estado == "A" ? "selected" : "")>Activo</option>
+                    <option value="I" @(Model.Estado == "I" ? "selected" : "")>Inactivo</option>
+                </select>
+                @Html.ValidationMessageFor(x => x.Estado, null, new { @class = "label label-danger" })
+            </div>
+        </div>
+
+        <div class="text-right">
+            <button type="submit" class="btn btn-outline-primary">Guardar Cambios</button>
+            <a href="##" class="btn btn-outline-secondary" onclick="history.go(-1); return false;">Cancelar</a>
+        </div>
+        <br /><br />
+    </div>
+}

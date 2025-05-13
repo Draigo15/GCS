@@ -179,7 +179,6 @@
     <Content Include="Views\Fase\Index.cshtml" />
     <Content Include="Views\Fase\AgregarEditar.cshtml" />
     <Content Include="Views\Elemento_Configuracion\Index.cshtml" />
-    <Content Include="Views\Elemento_Configuracion\Agregar.cshtml" />
     <Content Include="Views\Proyecto\Index.cshtml" />
     <Content Include="Views\Proyecto\Agregar.cshtml" />
     <Content Include="Views\Miembro_Elemento\Index.cshtml" />
@@ -199,6 +198,7 @@
     <Content Include="Views\AdminDashboard\Index.cshtml" />
     <Content Include="Views\DesarrolladorDashboard\Index.cshtml" />
     <Content Include="Views\Metodologia\Visualizar.cshtml" />
+    <Content Include="Views\Elemento_Configuracion\Editar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

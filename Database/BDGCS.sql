@@ -19,6 +19,7 @@ CREATE TABLE [dbo].[Elemento_Configuracion](
 	[Codigo] [varchar](50) NULL,
 	[Nombre] [varchar](50) NULL,
 	[Nomenclatura] [varchar](50) NULL,
+	[Estado] [varchar](1)NULL,
 	[Id_fase] [int] NOT NULL,
  CONSTRAINT [PK_Elemento_Configuracion] PRIMARY KEY CLUSTERED 
 (
