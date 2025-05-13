@@ -46,17 +46,22 @@ namespace SistemaGCS.Controllers
             return View(id == 0 ? new Proyecto() : objProyecto.Obtener(id));
         }
 
-        public ActionResult Guardar(Proyecto model)
+        [HttpPost]
+        public ActionResult Guardar(Proyecto model, int[] ECSSeleccionados)
         {
             if (ModelState.IsValid)
             {
                 model.Guardar();
+
+                // Relación Proyecto - ECS (a través de la fase → Miembro_Elemento o tu tabla correspondiente)
+                // Aquí puedes guardar los ECSSeleccionados como se necesite
+
                 return Redirect("~/Proyecto/Index");
             }
-            else
-            {
-                return View("~/Proyecto/Agregar");
-            }
+
+            ViewBag.Ec = objMeto.Listar();
+            ViewBag.sol = objSC.ListarRespuesta();
+            return View("~/Proyecto/Agregar", model);
         }
 
         public ActionResult Estado()
@@ -64,6 +69,14 @@ namespace SistemaGCS.Controllers
 
            
             return View();
+        }
+        public ActionResult ObtenerFasesConECS(int id_metodologia)
+        {
+            var fases = new Fase().ListarPorMetodologia(id_metodologia); // Asegúrate que este método existe
+            var elementos = new Elemento_Configuracion().Listar(); // Ya existente
+
+            ViewBag.Elementos = elementos;
+            return PartialView("_FasesConECS", fases); // Vista parcial que muestra las fases y sus ECS
         }
     }
 }

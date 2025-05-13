@@ -1,0 +1,26 @@
+﻿
+@model List<SistemaGCS.Models.Fase>
+@{
+    var elementos = ViewBag.Elementos as List<SistemaGCS.Models.Elemento_Configuracion>;
+}
+
+@foreach (var fase in Model)
+{
+    <div class="card mb-3">
+        <div class="card-header bg-secondary text-white">
+            Fase: @fase.Nombre
+        </div>
+        <div class="card-body">
+            @foreach (var ecs in elementos.Where(e => e.Id_fase == fase.Id_fase))
+            {
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox"
+                           name="ECSSeleccionados" value="@ecs.Id_elementoconfiguracion" id="ecs_@ecs.Id_elementoconfiguracion" />
+                    <label class="form-check-label" for="ecs_@ecs.Id_elementoconfiguracion">
+                        @ecs.Nombre (@ecs.Nomenclatura)
+                    </label>
+                </div>
+            }
+        </div>
+    </div>
+}

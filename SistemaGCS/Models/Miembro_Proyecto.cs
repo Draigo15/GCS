@@ -19,10 +19,13 @@ namespace SistemaGCS.Models
         [Key]
         public int Id_miembro { get; set; }
 
+        [Required(ErrorMessage = "El campo Usuario es obligatorio.")]
         public int Id_usuario { get; set; }
 
+        [Required(ErrorMessage = "El campo Rol es obligatorio.")]
         public int Id_rol { get; set; }
 
+        [Required(ErrorMessage = "El campo Proyecto es obligatorio.")]
         public int Id_proyecto { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

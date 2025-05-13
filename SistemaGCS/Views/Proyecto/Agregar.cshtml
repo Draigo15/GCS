@@ -3,12 +3,7 @@
     ViewBag.Title = "Agregar";
     List<SistemaGCS.Models.Metodologia> tipometo = ViewBag.Ec;
     List<SistemaGCS.Models.Solicitud_Cambios> tiposol = ViewBag.sol;
-
-
-
-
 }
-
 
 <nav class="breadcrumb">
     <ol class="breadcrumb">
@@ -17,11 +12,12 @@
     </ol>
 </nav>
 
-@using (Html.BeginForm("Guardar", "Proyecto", FormMethod.Post, new { id = "frm-categoria" }))
+@using (Html.BeginForm("Guardar", "Proyecto", FormMethod.Post, new { id = "frm-proyecto" }))
 {
     @Html.HiddenFor(x => x.Id_proyecto)
+
     <div class="card">
-        <div class="card-header">Informacion del Usuario</div>
+        <div class="card-header">Información del Proyecto</div>
         <div class="card-body">
 
             <div class="form-group">
@@ -38,35 +34,32 @@
 
             <div class="form-group">
                 @Html.LabelFor(x => x.FechaInicio)
-                @Html.TextBoxFor(x => x.FechaInicio, new { @type = "date", @class = "form-control" })
+                @Html.TextBoxFor(x => x.FechaInicio, new { type = "date", @class = "form-control" })
                 @Html.ValidationMessageFor(x => x.FechaInicio, null, new { @class = "label label-danger" })
             </div>
 
             <div class="form-group">
                 @Html.LabelFor(x => x.FechaTermino)
-                @Html.TextBoxFor(x => x.FechaTermino, new { @type = "date", @class = "form-control" })
+                @Html.TextBoxFor(x => x.FechaTermino, new { type = "date", @class = "form-control" })
                 @Html.ValidationMessageFor(x => x.FechaTermino, null, new { @class = "label label-danger" })
             </div>
 
             <div class="form-group">
                 @Html.LabelFor(x => x.Estado)
-                <select name="ESTADO" class="form-control">
-                    <option @(Model.Estado == "A" ? "Selected" : "") value="A">Activo</option>
-                    <option @(Model.Estado == "I" ? "Selected" : "") value="I">Inactivo</option>
+                <select name="Estado" class="form-control">
+                    <option value="A" @(Model.Estado == "A" ? "selected" : "")>Activo</option>
+                    <option value="I" @(Model.Estado == "I" ? "selected" : "")>Inactivo</option>
                 </select>
                 @Html.ValidationMessageFor(x => x.Estado, null, new { @class = "label label-danger" })
             </div>
 
             <div class="form-group">
                 @Html.LabelFor(x => x.Id_metodologia)
-                <select name="Id_metodologia" class="form-control">
-                    <option @(Model.Id_metodologia.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                <select name="Id_metodologia" class="form-control" id="metodologiaSelect">
+                    <option value="">--Seleccione--</option>
                     @foreach (var t in tipometo)
                     {
-                        <option @(Model.Id_metodologia.Equals(t.Id_metodologia) ? "selected" : "")
-                                value="@t.Id_metodologia">
-                            @t.Nombre
-                        </option>
+                        <option value="@t.Id_metodologia" @(Model.Id_metodologia == t.Id_metodologia ? "selected" : "")>@t.Nombre</option>
                     }
                 </select>
                 @Html.ValidationMessageFor(x => x.Id_metodologia, null, new { @class = "label label-danger" })
@@ -75,11 +68,10 @@
             <div class="form-group">
                 @Html.LabelFor(x => x.Id_solicitud_cambios)
                 <select name="Id_solicitud_cambios" class="form-control">
-                    <option @(Model.Id_solicitud_cambios.Equals("") ? "selected" : "") value="">--Seleccione--</option>
+                    <option value="">--Seleccione--</option>
                     @foreach (var t in tiposol)
                     {
-                        <option @(Model.Id_solicitud_cambios.Equals(t.Id_solicitud_cambios) ? "selected" : "")
-                                value="@t.Id_solicitud_cambios">
+                        <option value="@t.Id_solicitud_cambios" @(Model.Id_solicitud_cambios == t.Id_solicitud_cambios ? "selected" : "")>
                             @t.Objetivo - @t.Respuesta
                         </option>
                     }
@@ -87,9 +79,8 @@
                 @Html.ValidationMessageFor(x => x.Id_solicitud_cambios, null, new { @class = "label label-danger" })
             </div>
 
-
-
-
+            <!-- Contenedor dinámico para fases y ECS -->
+            <div id="contenedorFases"></div>
 
         </div>
 
@@ -97,9 +88,44 @@
             <button type="submit" class="btn btn-outline-primary">Guardar</button>
             <a href="~/Proyecto" class="btn btn-outline-danger">Cancelar</a>
         </div>
-        <br /><br /><br />
-
-
+        <br /><br />
     </div>
 }
 
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#metodologiaSelect').change(function () {
+                var id_metodologia = $(this).val();
+                if (id_metodologia) {
+                    $.getJSON('/Proyecto/ObtenerFasesConECS', { id_metodologia: id_metodologia }, function (data) {
+                        var html = '';
+                        data.forEach(function (fase) {
+                            html += `<div class="card mt-3">
+                                        <div class="card-header bg-secondary text-white">
+                                            <strong>${fase.Nombre}</strong>
+                                        </div>
+                                        <div class="card-body row">`;
+                            fase.ECS.forEach(function (ecs) {
+                                html += `<div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="ECSSeleccionados" value="${ecs.Id_elementoconfiguracion}" id="ecs_${ecs.Id_elementoconfiguracion}">
+                                                <label class="form-check-label" for="ecs_${ecs.Id_elementoconfiguracion}">
+                                                    ${ecs.Nombre} (${ecs.Codigo})
+                                                </label>
+                                            </div>
+                                         </div>`;
+                            });
+                            html += `</div></div>`;
+                        });
+                        $('#contenedorFases').html(html);
+                    });
+                } else {
+                    $('#contenedorFases').empty();
+                }
+            });
+        });
+    </script>
+}

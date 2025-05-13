@@ -19,20 +19,24 @@ namespace SistemaGCS.Models
 
         [Key]
         public int Id_proyecto { get; set; }
-
-        [StringLength(50)]
+        [Required(ErrorMessage = "El campo Código es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El Código no debe exceder los 50 caracteres.")]
         public string Codigo { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "El campo Nombre es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El Nombre no debe exceder los 50 caracteres.")]
         public string Nombre { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "La Fecha de Inicio es obligatoria.")]
+        [DataType(DataType.Date, ErrorMessage = "Formato de fecha inválido.")]
         public string FechaInicio { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "La Fecha de Término es obligatoria.")]
+        [DataType(DataType.Date, ErrorMessage = "Formato de fecha inválido.")]
         public string FechaTermino { get; set; }
 
-        [StringLength(50)]
+        [Required(ErrorMessage = "El campo Estado es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El Estado no debe exceder los 50 caracteres.")]
         public string Estado { get; set; }
 
         public int Id_metodologia { get; set; }
@@ -43,6 +47,8 @@ namespace SistemaGCS.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Miembro_Proyecto> Miembro_Proyecto { get; set; }
+        public virtual ICollection<Elemento_Proyecto> Elemento_Proyecto { get; set; }
+
 
         public virtual Solicitud_Cambios Solicitud_Cambios { get; set; }
 

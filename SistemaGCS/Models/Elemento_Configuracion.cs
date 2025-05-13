@@ -41,6 +41,8 @@ namespace SistemaGCS.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Miembro_Elemento> Miembro_Elemento { get; set; }
+        public virtual ICollection<Elemento_Proyecto> Elemento_Proyecto { get; set; }
+
 
 
         //Metodo Listar

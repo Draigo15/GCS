@@ -20,11 +20,14 @@ namespace SistemaGCS.Models
         public virtual DbSet<Miembro_Elemento> Miembro_Elemento { get; set; }
         public virtual DbSet<Miembro_Proyecto> Miembro_Proyecto { get; set; }
         public virtual DbSet<Proyecto> Proyecto { get; set; }
+        public virtual DbSet<Elemento_Proyecto> Elemento_Proyecto { get; set; }
+
         public virtual DbSet<Rol> Rol { get; set; }
         public virtual DbSet<Solicitud> Solicitud { get; set; }
         public virtual DbSet<Solicitud_Cambios> Solicitud_Cambios { get; set; }
         public virtual DbSet<Tipo_Usuario> Tipo_Usuario { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
