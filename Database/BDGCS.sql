@@ -111,6 +111,40 @@ CREATE TABLE [dbo].[Proyecto](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+
+/****** Tabla intermedia: Elemento_Proyecto ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Elemento_Proyecto](
+    [Id_elemento_proyecto] INT IDENTITY(1,1) NOT NULL,
+    [Id_proyecto] INT NOT NULL,
+    [Id_elementoconfiguracion] INT NOT NULL,
+    [Estado] VARCHAR(1) NOT NULL DEFAULT 'A', -- 'A' = Activo, 'I' = Inactivo
+    CONSTRAINT [PK_Elemento_Proyecto] PRIMARY KEY CLUSTERED ([Id_elemento_proyecto] ASC)
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Elemento_Proyecto]  WITH CHECK 
+ADD CONSTRAINT [FK_Elemento_Proyecto_Proyecto]
+FOREIGN KEY([Id_proyecto])
+REFERENCES [dbo].[Proyecto] ([Id_proyecto])
+GO
+
+ALTER TABLE [dbo].[Elemento_Proyecto] CHECK CONSTRAINT [FK_Elemento_Proyecto_Proyecto]
+GO
+
+ALTER TABLE [dbo].[Elemento_Proyecto]  WITH CHECK 
+ADD CONSTRAINT [FK_Elemento_Proyecto_Elemento_Configuracion]
+FOREIGN KEY([Id_elementoconfiguracion])
+REFERENCES [dbo].[Elemento_Configuracion] ([Id_elementoconfiguracion])
+GO
+
+ALTER TABLE [dbo].[Elemento_Proyecto] CHECK CONSTRAINT [FK_Elemento_Proyecto_Elemento_Configuracion]
+GO
+
 /****** Object:  Table [dbo].[Rol]    Script Date: 03/12/2021 18:00:56 ******/
 SET ANSI_NULLS ON
 GO
@@ -258,13 +292,13 @@ GO
 SET IDENTITY_INSERT [dbo].[Miembro_Proyecto] ON 
 
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (1, 4, 3, 1)
-INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (2, 2, 2, 1)
+INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (2, 2, 4, 1)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (3, 3, 2, 1)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (4, 6, 1, 6)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (5, 5, 2, 6)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (6, 7, 3, 6)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (7, 1, 1, 7)
-INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (14, 1, 1, 4)
+INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (14, 1, 5, 4)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (16, 6, 1, 1)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (17, 7, 3, 1)
 INSERT [dbo].[Miembro_Proyecto] ([Id_miembro], [Id_usuario], [Id_rol], [Id_proyecto]) VALUES (18, 1, 1, 5)
@@ -282,15 +316,20 @@ INSERT [dbo].[Proyecto] ([Id_proyecto], [Codigo], [Nombre], [FechaInicio], [Fech
 INSERT [dbo].[Proyecto] ([Id_proyecto], [Codigo], [Nombre], [FechaInicio], [FechaTermino], [Estado], [Id_metodologia], [Id_solicitud_cambios]) VALUES (5, N'005', N'Sistema Asistencia', N'2021-12-03', N'2021-12-03', N'A', 1, 1)
 INSERT [dbo].[Proyecto] ([Id_proyecto], [Codigo], [Nombre], [FechaInicio], [FechaTermino], [Estado], [Id_metodologia], [Id_solicitud_cambios]) VALUES (6, N'0055', N'Sistema Reservas Medicas', N'10/03/2021', N'10/12/2021', N'A', 7, 13)
 
-SET IDENTITY_INSERT [dbo].[Proyecto] OFF
-GO
-SET IDENTITY_INSERT [dbo].[Rol] ON 
+-- Insertar nuevos roles
+SET IDENTITY_INSERT [dbo].[Rol] ON;
 
-INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (1, N'Jefe de Proyecto')
-INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (2, N'Documentacion')
-INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (3, N'Desarrollador')
-SET IDENTITY_INSERT [dbo].[Rol] OFF
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (1, N'Jefe de proyecto');
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (2, N'Arquitecto de Software');
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (3, N'Agente del Comité de Cambio');
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (4, N'Solicitante');
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (5, N'Ingeniero de software');
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (6, N'Ingeniero de pruebas');
+INSERT [dbo].[Rol] ([Id_rol], [Nombre]) VALUES (7, N'Bibliotecario');
+
+SET IDENTITY_INSERT [dbo].[Rol] OFF;
 GO
+
 SET IDENTITY_INSERT [dbo].[Solicitud] ON 
 
 INSERT [dbo].[Solicitud] ([Id_solicitud], [Requerimiento], [Descripcion]) VALUES (1, N'Veterinaria', N'Cambiar Requerimientos')

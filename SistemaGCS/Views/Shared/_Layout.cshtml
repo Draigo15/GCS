@@ -17,12 +17,14 @@
     <link href="~/Source/css/sweetalert2.min.css" rel="stylesheet" />
     <link href="~/Source/css/sweetalert.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 </head>
 
 <body>
     <div class="wrapper">
         <nav id="sidebar" class="sidebar">
-            <div class="sidebar-content js-simplebar bg-dark">
+            <div class="sidebar-content js-simplebar @*bg-dark*@">
                 <a class="sidebar-brand" href="#">
 
                     <center>
@@ -34,8 +36,8 @@
                 <ul class="sidebar-nav">
                     <li class="sidebar-header">MENU</li>
 
-                    <li class="sidebar-item active">
-                        <a class="sidebar-link" href="~/Home/Index">
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="~/AdminDashboard/Index">
                             <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
                         </a>
                     </li>
@@ -129,8 +131,7 @@
                                 @{
                                     var rol = Session["RolNombre"] != null ? Session["RolNombre"].ToString().ToLower() : "default";
                                     var avatar = "default.png";
-                                    if (rol.Contains("admin")) { avatar = "admin.png"; }
-                                    else if (rol.Contains("desarrollador")) { avatar = "dev.png"; }
+                                    if (rol.Contains("admin")) { avatar = "admin.png"; } else if (rol.Contains("desarrollador")) { avatar = "dev.png"; }
                                 }
                                 <img src="~/Source/img/avatars/@avatar" class="avatar img-fluid rounded-circle me-1" alt="Usuario" width="36" height="36" />
                                 <span class="text-dark">@Session["NombreCompleto"]</span><br />
@@ -225,6 +226,33 @@
             });
         });
     </script>
+    <script>
+        $(document).ready(function () {
+            var currentUrl = window.location.pathname.toLowerCase();
+
+            $(".sidebar-link").each(function () {
+                var link = $(this).attr("href").toLowerCase();
+
+                link = link.replace(/^~\//, "/");
+
+                if (currentUrl.startsWith(link)) {
+                    $(".sidebar-item").removeClass("active");
+
+                    $(this).closest(".sidebar-item").addClass("active");
+                }
+            });
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new DataTable('#example');
+        });
+    </script>
+    <!-- jQuery 3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/2.3.0/js/dataTables.js"></script>
     @RenderSection("Scripts", required: false)
 
 </body>

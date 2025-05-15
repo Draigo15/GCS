@@ -1,73 +1,159 @@
 ﻿@model SistemaGCS.Models.Usuario
 @{
-    ViewBag.Title = "Agregar Usuario";
+    ViewBag.Title = Model.Id_usuario > 0 ? "Editar Usuario" : "Nuevo Usuario";
     List<SistemaGCS.Models.Tipo_Usuario> tipousuario = ViewBag.Tipo;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    .form-card {
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: .75rem;
+        overflow: hidden;
+    }
 
-<nav class="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="~/Usuario/Index">Usuarios</a></li>
-        <li class="breadcrumb-item active">@(Model.Id_usuario > 0 ? Model.Apellido + ", " + Model.Nombre : "Nuevo Registro")</li>
-    </ol>
-</nav>
+    .card-header {
+        background: linear-gradient(90deg, #4e73df 0%, #224abe 100%);
+    }
 
-@using (Html.BeginForm("Guardar", "Usuario", FormMethod.Post, new { id = "frm-usuario" }))
-{
-    @Html.HiddenFor(x => x.Id_usuario)
-    <div class="card">
-        <div class="card-header">Información del Usuario</div>
-        <div class="card-body">
-            <div class="form-group">
-                @Html.LabelFor(x => x.Nombre)
-                @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control" })
-                @Html.ValidationMessageFor(x => x.Nombre, null, new { @class = "text-danger" })
+    .card-footer {
+        background-color: #f8f9fc;
+    }
+
+    .input-icon .input-group-text {
+        background-color: #e9ecef;
+    }
+</style>
+
+<div class="container mt-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-white px-3 py-2 rounded shadow-sm">
+            <li class="breadcrumb-item"><a href="~/Usuario/Index">Usuarios</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+                @(Model.Id_usuario > 0 ? Model.Apellido + ", " + Model.Nombre : "Nuevo Registro")
+            </li>
+        </ol>
+    </nav>
+
+    @using (Html.BeginForm("Guardar", "Usuario", FormMethod.Post, new { id = "frm-usuario", @class = "needs-validation", novalidate = "novalidate" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(x => x.Id_usuario)
+
+        <div class="card shadow-sm form-card">
+            <div class="card-header text-white">
+                <i class="bi bi-person-badge me-2"></i>
+                @(ViewBag.Title)
             </div>
+            <div class="card-body bg-light">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <div class="input-group input-icon">
+                            <span class="input-group-text"><i class="bi bi-person"></i></span>
+                            @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control", id = "Nombre", placeholder = "Ingrese nombre", required = "required" })
+                            <div class="invalid-feedback">
+                                @Html.ValidationMessageFor(x => x.Nombre)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Apellido" class="form-label">Apellido</label>
+                        <div class="input-group input-icon">
+                            <span class="input-group-text"><i class="bi bi-person"></i></span>
+                            @Html.TextBoxFor(x => x.Apellido, new { @class = "form-control", id = "Apellido", placeholder = "Ingrese apellido", required = "required" })
+                            <div class="invalid-feedback">
+                                @Html.ValidationMessageFor(x => x.Apellido)
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.Apellido)
-                @Html.TextBoxFor(x => x.Apellido, new { @class = "form-control" })
-                @Html.ValidationMessageFor(x => x.Apellido, null, new { @class = "text-danger" })
+                <div class="row g-4 mt-3">
+                    <div class="col-md-6">
+                        <label for="Correo" class="form-label">Correo</label>
+                        <div class="input-group input-icon">
+                            <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                            @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", id = "Correo", type = "email", placeholder = "correo@ejemplo.com", required = "required" })
+                            <div class="invalid-feedback">
+                                @Html.ValidationMessageFor(x => x.Correo)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Password" class="form-label">Contraseña</label>
+                        <div class="input-group input-icon">
+                            <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                            @Html.PasswordFor(x => x.Password, new { @class = "form-control", id = "Password", placeholder = "Ingrese contraseña", required = "required" })
+                            <div class="invalid-feedback">
+                                @Html.ValidationMessageFor(x => x.Password)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4 mt-3">
+                    <div class="col-md-4">
+                        <label for="Estado" class="form-label">Estado</label>
+                        <div class="input-group input-icon">
+                            <span class="input-group-text"><i class="bi bi-toggle-on"></i></span>
+                            <select id="Estado" name="Estado" class="form-select" required>
+                                <option value="A" @(Model.Estado == "A" ? "selected" : "")>Activo</option>
+                                <option value="I" @(Model.Estado == "I" ? "selected" : "")>Inactivo</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                @Html.ValidationMessageFor(x => x.Estado)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="Id_tipousuario" class="form-label">Tipo de Usuario</label>
+                        <div class="input-group input-icon">
+                            <span class="input-group-text"><i class="bi bi-list-ul"></i></span>
+                            <select id="Id_tipousuario" name="Id_tipousuario" class="form-select" required>
+                                <option value="">--Seleccione--</option>
+                                @foreach (var t in tipousuario)
+                                {
+                                    <option value="@t.Id_tipousuario" @(Model.Id_tipousuario == t.Id_tipousuario ? "selected" : "")>
+                                        @t.Nombre
+                                    </option>
+                                }
+                            </select>
+                            <div class="invalid-feedback">
+                                @Html.ValidationMessageFor(x => x.Id_tipousuario)
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="form-group">
-                @Html.LabelFor(x => x.Correo)
-                @Html.TextBoxFor(x => x.Correo, new { @class = "form-control", type = "email" })
-                @Html.ValidationMessageFor(x => x.Correo, null, new { @class = "text-danger" })
+            <div class="card-footer text-end">
+                <button type="submit" class="btn btn-success me-2">
+                    <i class="bi bi-check-circle me-1"></i> Guardar
+                </button>
+                <a href="~/Usuario/Index" class="btn btn-danger">
+                    <i class="bi bi-x-circle me-1"></i> Cancelar
+                </a>
             </div>
+        </div>
+    }
+</div>
 
-            <div class="form-group">
-                @Html.LabelFor(x => x.Password)
-                @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
-                @Html.ValidationMessageFor(x => x.Password, null, new { @class = "text-danger" })
-            </div>
-
-            <div class="form-group">
-                @Html.LabelFor(x => x.Estado)
-                <select name="Estado" class="form-control">
-                    <option value="A" @(Model.Estado == "A" ? "selected" : "")>Activo</option>
-                    <option value="I" @(Model.Estado == "I" ? "selected" : "")>Inactivo</option>
-                </select>
-                @Html.ValidationMessageFor(x => x.Estado, null, new { @class = "text-danger" })
-            </div>
-
-            <div class="form-group">
-                @Html.Label("Tipo de Usuario")
-                <select name="Id_tipousuario" class="form-control">
-                    <option value="">--Seleccione--</option>
-                    @foreach (var t in tipousuario)
-                    {
-                        <option value="@t.Id_tipousuario" @(Model.Id_tipousuario == t.Id_tipousuario ? "selected" : "")>
-                            @t.Nombre
-                        </option>
+@section Scripts {
+    <!-- Bootstrap JS Bundle (con Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // Ejemplo de validación Bootstrap
+        (function () {
+            'use strict';
+            var forms = document.querySelectorAll('.needs-validation');
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
                     }
-                </select>
-                @Html.ValidationMessageFor(x => x.Id_tipousuario, null, new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="text-right mb-3 mr-3">
-            <button type="submit" class="btn btn-outline-primary">Guardar</button>
-            <a href="~/Usuario" class="btn btn-outline-danger">Cancelar</a>
-        </div>
-    </div>
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();</script>
 }

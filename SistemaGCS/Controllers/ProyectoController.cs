@@ -30,8 +30,28 @@ namespace SistemaGCS.Controllers
         }
         public ActionResult Visualizar(int id)
         {
-            return View(objProyecto.Obtener(id));
+            var proyecto = objProyecto.Obtener(id);
+
+            using (var db = new ModelGCS())
+            {
+                var ecsActivos = db.Elemento_Proyecto
+                    .Where(ep => ep.Id_proyecto == id && ep.Estado == "A")
+                    .Select(ep => new
+                    {
+                        ep.Id_elementoconfiguracion,
+                        ep.Elemento_Configuracion.Nombre,
+                        ep.Elemento_Configuracion.Codigo,
+                        ep.Elemento_Configuracion.Nomenclatura,
+                        FaseNombre = ep.Elemento_Configuracion.Fase.Nombre
+                    })
+                    .ToList();
+
+                ViewBag.ECSActivos = ecsActivos;
+            }
+
+            return View(proyecto);
         }
+
         public ActionResult Buscar(string criterio)
         {
             return View(criterio == null || criterio == "" ? objProyecto.Listar() : objProyecto.Buscar(criterio));
@@ -49,20 +69,59 @@ namespace SistemaGCS.Controllers
         [HttpPost]
         public ActionResult Guardar(Proyecto model, int[] ECSSeleccionados)
         {
-            if (ModelState.IsValid)
+            // Validación básica de modelo
+            if (!ModelState.IsValid)
             {
-                model.Guardar();
-
-                // Relación Proyecto - ECS (a través de la fase → Miembro_Elemento o tu tabla correspondiente)
-                // Aquí puedes guardar los ECSSeleccionados como se necesite
-
-                return Redirect("~/Proyecto/Index");
+                ViewBag.Ec = new Metodologia().Listar();
+                ViewBag.sol = new Solicitud_Cambios().ListarRespuesta();
+                return View("Agregar", model);
             }
 
-            ViewBag.Ec = objMeto.Listar();
-            ViewBag.sol = objSC.ListarRespuesta();
-            return View("~/Proyecto/Agregar", model);
+            // Validar que haya al menos un ECS activo
+            bool tieneECSActivo = false;
+            foreach (var id in ECSSeleccionados ?? new int[0])
+            {
+                var estado = Request.Form[$"EstadoECS_{id}"];
+                if (estado == "A")
+                {
+                    tieneECSActivo = true;
+                    break;
+                }
+            }
+
+            if (!tieneECSActivo)
+            {
+                ModelState.AddModelError("", "Debe seleccionar al menos un ECS con estado ACTIVO.");
+                ViewBag.Ec = new Metodologia().Listar();
+                ViewBag.sol = new Solicitud_Cambios().ListarRespuesta();
+                return View("Agregar", model);
+            }
+
+            // Guardar el proyecto
+            model.Guardar();
+
+            // Guardar relaciones ECS - Proyecto
+            using (var db = new ModelGCS())
+            {
+                foreach (var id in ECSSeleccionados)
+                {
+                    var estado = Request.Form[$"EstadoECS_{id}"] ?? "A"; // default A
+                    var relacion = new Elemento_Proyecto
+                    {
+                        Id_proyecto = model.Id_proyecto,
+                        Id_elementoconfiguracion = id,
+                        Estado = estado
+                    };
+
+                    db.Elemento_Proyecto.Add(relacion);
+                }
+
+                db.SaveChanges();
+            }
+
+            return RedirectToAction("Index");
         }
+
 
         public ActionResult Estado()
         {
@@ -70,13 +129,30 @@ namespace SistemaGCS.Controllers
            
             return View();
         }
-        public ActionResult ObtenerFasesConECS(int id_metodologia)
+        public JsonResult ObtenerFasesConECS(int id_metodologia)
         {
-            var fases = new Fase().ListarPorMetodologia(id_metodologia); // Asegúrate que este método existe
-            var elementos = new Elemento_Configuracion().Listar(); // Ya existente
+            using (var db = new ModelGCS())
+            {
+                var fases = db.Fase
+                    .Where(f => f.Id_metodologia == id_metodologia)
+                    .Select(f => new
+                    {
+                        f.Id_fase,
+                        f.Nombre,
+                        ECS = f.Elemento_Configuracion
+                            .Where(e => e.Estado == "A")
+                            .Select(e => new
+                            {
+                                e.Id_elementoconfiguracion,
+                                e.Nombre,
+                                e.Codigo,
+                                e.Nomenclatura
+                            }).ToList()
+                    }).ToList();
 
-            ViewBag.Elementos = elementos;
-            return PartialView("_FasesConECS", fases); // Vista parcial que muestra las fases y sus ECS
+                return Json(fases, JsonRequestBehavior.AllowGet);
+            }
         }
+
     }
 }

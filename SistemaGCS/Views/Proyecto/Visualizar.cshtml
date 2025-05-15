@@ -1,0 +1,55 @@
+﻿@model SistemaGCS.Models.Proyecto
+@{
+    ViewBag.Title = "Detalles del Proyecto";
+    var ecsActivos = ViewBag.ECSActivos as List<dynamic>;
+}
+
+<h2 class="mb-4">Detalles del Proyecto</h2>
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        Información del Proyecto
+    </div>
+    <div class="card-body">
+        <p><strong>Código:</strong> @Model.Codigo</p>
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Fecha de Inicio:</strong> @Model.FechaInicio</p>
+        <p><strong>Fecha de Término:</strong> @Model.FechaTermino</p>
+        <p><strong>Estado:</strong> @(Model.Estado == "A" ? "Activo" : "Inactivo")</p>
+        <p><strong>Metodología:</strong> @Model.Metodologia.Nombre</p>
+        <p><strong>Solicitud de Cambio:</strong> @Model.Solicitud_Cambios.Objetivo</p>
+    </div>
+</div>
+
+<br />
+
+@if (ecsActivos != null && ecsActivos.Any())
+{
+    <h4>ECS Activos por Fase</h4>
+    @foreach (var grupo in ecsActivos.GroupBy(e => e.FaseNombre))
+    {
+        <div class="card mt-3">
+            <div class="card-header bg-secondary text-white">
+                Fase: @grupo.Key
+            </div>
+            <ul class="list-group list-group-flush">
+                @foreach (var ecs in grupo)
+                {
+                    <li class="list-group-item">
+                        <strong>@ecs.Nombre</strong> (@ecs.Codigo) - @ecs.Nomenclatura
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-info mt-4">
+        No hay elementos activos asignados a este proyecto.
+    </div>
+}
+
+<div class="mt-4">
+    <a href="~/Proyecto/Index" class="btn btn-outline-primary">Volver al Listado</a>
+</div>

@@ -111,10 +111,14 @@
                             fase.ECS.forEach(function (ecs) {
                                 html += `<div class="col-md-6">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" name="ECSSeleccionados" value="${ecs.Id_elementoconfiguracion}" id="ecs_${ecs.Id_elementoconfiguracion}">
-                                                <label class="form-check-label" for="ecs_${ecs.Id_elementoconfiguracion}">
-                                                    ${ecs.Nombre} (${ecs.Codigo})
-                                                </label>
+                                                <div class="form-group border p-2 rounded">
+                                                    <input type="hidden" name="ECSSeleccionados" value="${ecs.Id_elementoconfiguracion}" />
+                                                    <label><strong>${ecs.Nombre} (${ecs.Codigo})</strong></label>
+                                                    <select class="form-control mt-1" name="EstadoECS_${ecs.Id_elementoconfiguracion}">
+                                                        <option value="A">Activo</option>
+                                                        <option value="I">Inactivo</option>
+                                                    </select>
+                                                </div>
                                             </div>
                                          </div>`;
                             });

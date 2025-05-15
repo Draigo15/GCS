@@ -201,6 +201,7 @@
     <Content Include="Views\Metodologia\Visualizar.cshtml" />
     <Content Include="Views\Elemento_Configuracion\Editar.cshtml" />
     <Content Include="Views\Proyecto\_FasesConECS.cshtml" />
+    <Content Include="Views\Proyecto\Visualizar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

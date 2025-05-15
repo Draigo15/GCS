@@ -1,48 +1,76 @@
 ﻿@model List<SistemaGCS.Models.Usuario>
 @{
-    ViewBag.Title = "Usuarios";
+    ViewBag.Title = "Gestión de Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Gestión de Usuarios</h2>
 
-<div class="mb-3">
-    <a href="~/Usuario/Agregar" class="btn btn-info">Registrar Usuario</a>
-</div>
-
-@using (Html.BeginForm("Index", "Usuario", FormMethod.Get))
-{
-    <div class="form-inline mb-3">
-        <input type="text" name="criterio" class="form-control mr-2" placeholder="Buscar por nombre, apellido o correo..." />
-        <br/>
-        <button type="submit" class="btn btn-primary">Buscar</button>
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="h3 mb-0">Gestión de Usuarios</h2>
+        <a href="~/Usuario/Agregar" class="btn btn-info">
+            <i class="bi bi-person-plus me-1"></i> Registrar Usuario
+        </a>
     </div>
-}
 
-<table id="datatable" class="display" style="width:100%">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Tipo de Usuario</th>
-            <th>Apellidos y Nombres</th>
-            <th>Email</th>
-            <th>Estado</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var m in Model)
-        {
-            <tr>
-                <td>@m.Id_usuario</td>
-                <td>@m.Tipo_Usuario.Nombre</td>
-                <td>@m.Apellido, @m.Nombre</td>
-                <td>@m.Correo</td>
-                <td>@(m.Estado == "A" ? "Activo" : "Inactivo")</td>
-                <td>
-                    <a href="~/Usuario/Agregar/@m.Id_usuario" class="btn btn-outline-success btn-sm">Editar</a>
-                    <a href="~/Usuario/Eliminar/@m.Id_usuario" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Deseas desactivar este usuario?');">Eliminar</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <div class="card">
+        <div class="card-body">
+            @*<form method="get" action="~/Usuario/Index">
+                    <div class="row g-2 align-items-center mb-4">
+                        <div class="col-sm-4">
+                            <input type="text" name="criterio" class="form-control" placeholder="Buscar por nombre, apellido o correo..." />
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search me-1"></i> Buscar
+                            </button>
+                        </div>
+                    </div>
+                </form>*@
+
+            <div class="table-responsive">
+                <table id="example" class="table table-striped table-bordered table-hover align-middle" style="width:100%">
+                    <thead class="table-info">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Tipo de Usuario</th>
+                            <th scope="col">Apellidos y Nombres</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col" class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var m in Model)
+                        {
+                            <tr>
+                                <td>@m.Id_usuario</td>
+                                <td>@m.Tipo_Usuario.Nombre</td>
+                                <td>@m.Apellido, @m.Nombre</td>
+                                <td>@m.Correo</td>
+                                <td>
+                                    @if (m.Estado == "A")
+                                    {
+                                        <span class="badge bg-success">Activo</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">Inactivo</span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <a href="~/Usuario/Agregar/@m.Id_usuario" class="btn btn-sm btn-outline-success me-1" title="Editar">
+                                        <i class="bi bi-pencil-fill"></i>
+                                    </a>
+                                    <a href="~/Usuario/Eliminar/@m.Id_usuario" class="btn btn-sm btn-outline-danger" onclick="return confirm('¿Deseas desactivar este usuario?');" title="Eliminar">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
